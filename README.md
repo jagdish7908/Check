@@ -9,8 +9,8 @@
 * [References](#References)
 ### About
 When a Pull Request is created/updated, this tool checks the description of Pull Request for specific keywords ("Checklist", "Yes", "No") and sets the Pull Request status (succeeded/failed) in Azure DevOps.</br>
-![Alt text](Succeeded.png "Succeeded")
-![Alt text](Failed.png "Failed")
+![Alt text](sample/succeeded.png "Succeeded") </br>
+![Alt text](sample/failed.png "Failed") </br>
 WebApp is hosted [here](https://checklist-checker.herokuapp.com/).</br>
 ### Prerequisites
  * [NodeJs](https://nodejs.org/en/)
