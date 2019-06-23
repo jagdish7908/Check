@@ -21,8 +21,8 @@ app.get('/', function (req, res) {
     res.sendFile('views/landingPage.html', {root: __dirname });
 });
 
-app.listen(3000, function () {
-    console.log('Checklist checker listening on port 3000!');
+app.listen(process.env.PORT || 5000, function () {
+    console.log(`Checklist checker listening on port ${process.env.PORT}`);
 });
 
 app.post("/", function (req, res) {
