@@ -1,0 +1,16 @@
+{
+  "name": "custom_policy",
+  "version": "1.0.0",
+  "description": "Custom Policy to check if appropriate checklist is added when a PR is created in Azure DevOps",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jagdish Chaudhary",
+  "license": "ISC",
+  "dependencies": {
+    "azure-devops-node-api": "^9.0.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
