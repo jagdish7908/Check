@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Checklist Checker</title>
 	<meta charset="utf-8">
@@ -8,36 +9,53 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-	<link rel="shortcut icon" 
-      href="{{url_for('static', filename='favicon.ico')}}">
+	<link rel="shortcut icon" href="{{url_for('static', filename='favicon.ico')}}">
 
 
-<style type="text/css">
-	 html, body, .container-table {
-	    height: 100%;
-	}
-	.container-table {
-	    display: table;
-	}
-	.vertical-center-row {
-	    display: table-cell;
-	    vertical-align: middle;
-	}
-	.welcome{
-		font-size: 55px;
-	}
-	.msgbox{
-		color: grey;
-		text-align: center;
-	}
-</style>
+	<style type="text/css">
+		html,
+		body,
+		.container-table {
+			height: 100%;
+		}
+
+		.container-table {
+			display: table;
+		}
+
+		.vertical-center-row {
+			display: table-cell;
+			vertical-align: middle;
+		}
+
+		.welcome {
+			font-size: 55px;
+		}
+
+		.msgbox {
+			color: grey;
+			text-align: center;
+		}
+
+		.footer {
+			position: fixed;
+			padding-bottom: 10px;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			text-align: center;
+		}
+	</style>
 </head>
+
 <body>
 	<div class="container container-table">
-	    <div class="row vertical-center-row msgbox">
-	    	<i class="em em-wave" style="font-size: 50px;"></i>
-	        <div class="welcome">Hello from the other side.</div>
-	        <div>Try sending a POST request here by configuring web hooks in Azure DevOps</div>
-	    </div>
+		<div class="row vertical-center-row msgbox">
+			<i class="em em-wave" style="font-size: 50px;"></i>
+			<div class="welcome">Hello from the other side.</div>
+			<div>Try sending a POST request here by configuring web hooks for Pull Requests in Azure DevOps.</div>
+			<div class="footer	">Made with <i class="em em-heart" style="font-size: 10px"></i> by <a
+					href="https://github.com/jagdish7908" target="_blank" style="outline: none">Jagdish</a></div>
+		</div>
 	</div>
 </body>
