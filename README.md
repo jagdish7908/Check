@@ -1,13 +1,17 @@
 # Checklist Checker :white_check_mark:
 > *Custom Policy in Azure DevOps to check if checklist is present in description of Pull Request.*</br>
 
-WebApp is hosted [here](https://checklist-checker.herokuapp.com/)</br>
-
 ### Table of Contents
+* [About](#about)
 * [Prerequisites](#prerequisites)
 * [Installation](#installation)
 * [Usage](#usage)
 * [References](#References)
+### About
+When a Pull Request is created/updated, this tool checks the description of Pull Request for specific keywords ("Checklist", "Yes", "No") and sets the Pull Request status (succeeded/failed) in Azure DevOps.</br>
+![Alt text](Succeeded.png "Succeeded")
+![Alt text](Failed.png "Failed")
+WebApp is hosted [here](https://checklist-checker.herokuapp.com/).</br>
 ### Prerequisites
  * [NodeJs](https://nodejs.org/en/)
 ### Installation
