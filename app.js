@@ -35,7 +35,7 @@ app.post("/", function (req, res) {
     var prStatus = {
         "state": "failed",
         "description": "Checklist",
-        //"targetUrl": "http://visualstudio.microsoft.com",
+        "targetUrl": "https://checklist-checker.herokuapp.com/",
         "context": {
             "name": "checklist-checker",
             "genre": "continuous-integration"
