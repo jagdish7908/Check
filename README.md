@@ -6,6 +6,7 @@
 * [Prerequisites](#prerequisites)
 * [Installation](#installation)
 * [Usage](#usage)
+* [Integration with Azure DevOps](#Integration with Azure DevOps)
 * [References](#References)
 ### About
 When a Pull Request is created/updated, this tool checks the description of Pull Request for specific keywords ("Checklist", "Yes", "No") and sets the Pull Request status (succeeded/failed) in Azure DevOps.</br>
