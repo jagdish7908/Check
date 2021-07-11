@@ -22,7 +22,7 @@ Install dependencies
 ```console
 $ npm install
 ```
-Create an environment variable for your collection URL, replacing <your account> with the name of your Azure DevOps organization
+Create an environment variable for your collection URL, replacing <your account> with the name of your Azure DevOps organization.
 ```console
 $ setx COLLECTIONURL "https://dev.azure.com/<your account>"
 ```
