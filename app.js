@@ -32,10 +32,15 @@ app.post("/", function (req, res) {
     var description = req.body.resource.description;
 
     // Build the status object that we want to post.
+    /* 
+       The targetUrl is a URL that will be used to create a link for the description text in the Status section and activity feed.
+       This is the place where users can go to get more information about the status, for example, a build report or test run.
+       If no URL is specified, the description will appear as text with no link.
+    */
     var prStatus = {
         "state": "failed",
         "description": "Checklist",
-        "targetUrl": "https://checklist-checker.herokuapp.com/",
+        "targetUrl": "",
         "context": {
             "name": "checklist-checker",
             "genre": "continuous-integration"
